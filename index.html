@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon Trading Card Game Pocket</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header id="header">
+    <img id="header-img" src="https://tinypic.host/images/2025/03/06/tcgpocketlogo_en-2x.webp" alt="Pokémon TCG Pocket Logo">
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#packs">Packs</a></li>
+        <li><a class="nav-link" href="#signup">Sign-Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-title">
+      <h1>POKÉMON TRADING CARD GAME POCKET</h1>
+    </div>
+    <div class="hero-content">
+      <p>Experience the fun of collecting Pokémon Trading Card Game (TCG) cards with Pokémon Trading Card Game Pocket, an upcoming game for iOS and Android devices from Creatures Inc., the original developers of the Pokémon TCG, and DeNA Co., Ltd.</p>
+    </div>
+    <div class="video-container">
+      <iframe id="video" width="800" height="450" src="https://www.youtube.com/embed/urmBeWH0bxw?si=2y8C1WZ8Z7QBgFaP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section class="about-game" id="about">
+    <h2>About This Game</h2>
+    <p>Debuting in October 1996, the Pokémon Trading Card Game is based on the world introduced in the Pokémon video game series. Players can collect cards featuring their favorite Pokémon characters, build powerful decks, and face off against opponents in strategic battles.
+      This highly social game has been sold in 14 languages and has been played in 89 countries or regions, making it a great way for fans around the world to experience the world of Pokémon!</p>
+    <div class="card-gallery">
+      <img src="https://tinypic.host/images/2025/03/06/cardspread_header-xlarge-up-2x.webp" alt="Card spread">
+    </div>
+    <p>In this game, you will be able to open two booster packs every day at no cost. You can collect digital cards featuring nostalgic artwork from the past as well as brand-new cards that are exclusive to Pokémon Trading Card Game Pocket.</p>
+  </section>
+
+  <section class="divider">
+    <div class="divider-img">
+      <img src="https://tinypic.host/images/2025/03/07/pokeball-divider-xlarge-up-2x.webp" alt="Pokeball divider">
+    </div>
+  </section>
+
+  <section class="featured-cards">
+    <div class="cards-grid">
+      <img src="https://tinypic.host/images/2025/03/07/02-en.png" alt="Featured card 1">
+      <img src="https://tinypic.host/images/2025/03/07/04-en.png" alt="Featured card 2">
+      <img src="https://tinypic.host/images/2025/03/07/03-en.png" alt="Featured card 3">
+    </div>
+    <p>These are just a few of the cards from Triumphant Light that you're likely to face in battle. Be on the lookout for other useful cards to help build a deck that will have your opponent trembling in fear as you explore this latest expansion.</p>
+  </section>
+
+  <section class="divider">
+    <div class="divider-img">
+      <img src="https://tinypic.host/images/2025/03/07/pokeball-divider-xlarge-up-2x.webp" alt="Pokeball divider">
+    </div>
+  </section>
+
+  <section class="pricing-container" id="packs">
+    <div class="pricing-card">
+      <h2 class="card-title">Genetic Apex</h2>
+      <img src="https://tinypic.host/images/2025/03/06/pikachu.jpg" alt="Genetic Apex pack" class="card-image">
+      <p class="description">- Pack Name: Charizard Version of Genetic Apex<br>
+        - Best For: Players seeking the most powerful and useful cards<br>
+        - Game: TCG Pocket<br>
+        - Main Feature: Optimized for battle features</p>
+      <button class="buy-button">BUY</button>
+    </div>
+
+    <div class="pricing-card">
+      <h2 class="card-title">Space-Time Smackdown</h2>
+      <img src="https://tinypic.host/images/2025/03/06/Dialga_Booster_Front_EN.png" alt="Space-Time Smackdown pack" class="card-image">
+      <p class="description">- Key Cards: Dialga ex and Palkia ex<br>
+        - Expansion Theme: Bending the rules of time and space<br>
+        - Notable Feature: Dominates the latest expansion</p>
+      <button class="buy-button">BUY</button>
+    </div>
+
+    <div class="pricing-card">
+      <h2 class="card-title">Mythical Island</h2>
+      <img src="https://tinypic.host/images/2025/03/06/IMG_6082.png" alt="Mythical Island pack" class="card-image">
+      <p class="description">- Pack Name: Mythical Island<br>
+        - Main Feature: Includes many beautiful new cards<br>
+        - Booster Pack Benefit: Enhances your next pack with stunning additions</p>
+      <button class="buy-button">BUY</button>
+    </div>
+  </section>
+
+  <section class="signup-section" id="signup">
+    <h2>Sign up for Pokémon emails!</h2>
+    <form id="form" action="https://www.freecodecamp.org/email-submit">
+      <input id="email" type="email" name="email" placeholder="Email" required>
+      <input type="text" placeholder="United States">
+      <input type="date" placeholder="Birthday">
+      <div class="checkbox-group">
+        <input type="checkbox" id="news" checked>
+        <label for="news">Pokémon video games, apps, and more</label>
+        <input type="checkbox" id="store" checked>
+        <label for="store">Pokémon Center (our official online shop)</label>
+        <input type="checkbox" id="terms" checked>
+        <label for="terms">I accept the Pokémon.com Terms of Use and Privacy Notice</label>
+      </div>
+      <input id="submit" type="submit" value="Sign Up" class="signup-button">
+    </form>
+  </section>
+
+  <footer>
+    <div class="footer-logos">
+      <div class="footer-left">
+        <img class="app-store-logo" src="https://tinypic.host/images/2025/03/06/app-store-badge-en-2x.webp" alt="App Store">
+        <img class="google-play-logo" src="https://tinypic.host/images/2025/03/06/google-play-badge-en-2x.webp" alt="Google Play">
+      </div>
+      <div class="footer-center">
+        <img class="tcg-pocket-logo" src="https://tinypic.host/images/2025/03/06/tcgpocketlogo_en-2x.webp" alt="Pokémon TCG Pocket">
+      </div>
+      <div class="footer-right">
+        <img class="nintendo-logo" src="https://tinypic.host/images/2025/03/06/Vector.png" alt="Nintendo">
+        <img class="pokemon-company-logo" src="https://tinypic.host/images/2025/03/06/Group.png" alt="The Pokémon Company">
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
